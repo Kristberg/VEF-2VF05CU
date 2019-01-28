@@ -1,0 +1,30 @@
+.header{
+    padding: 20px;
+    text-align:center;
+    background: #1abc9c;
+    color:red;
+    font-size:10px;
+    display: block;
+}
+
+
+.row{
+    display:block;
+}
+
+
+.imp{
+    display:block;
+}
+
+
+.footer{
+    display: block;
+    text-align: center;
+    padding:30px;
+}
+
+
+.top{
+    display:block;
+}
