@@ -1,13 +1,13 @@
 import os
-from flask import Flask
+from flask import *
 
 app = Flask(__name__)
 @app.route("/")
 def home():
-    return template("""
+    return render_template_string("""
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="/static/main.css" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='main.css')}}"/>
 		<title>Hasarfréttir - VEFÞ2VF05CU Verkefni 3</title>
 
 
